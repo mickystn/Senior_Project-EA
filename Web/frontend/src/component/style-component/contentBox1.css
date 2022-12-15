@@ -1,0 +1,87 @@
+.landingpage .box {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+  }
+  
+  .box .infobox {
+    animation-name: leftslide;
+    animation-duration: 0.8s;
+    max-height: 500px;
+    max-width: 60%;
+    overflow: hidden;
+  }
+  .box .infobox-boldtext {
+    margin: 0;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .box .infobox-slimtext {
+    margin: 26px 0;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .box .infobox-btnwrapper {
+    display: flex;
+  }
+
+  .btn a{
+      color: white;
+      font-size: 20px;
+      font-family:"Poppins";
+      font-weight: 500;
+
+  }
+
+.btn a{
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.btn:hover {
+  transform: translateX(10px);
+  transition: transform 1s ease-out;
+}
+
+
+
+
+
+
+
+@keyframes leftslide {
+  from {
+    transform: translateX(-700px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes rightslide {
+  from {
+    transform: translateX(550px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+
+/* Vidio content1*/
+
+#Vdo1{
+  margin-top: 200px;
+}

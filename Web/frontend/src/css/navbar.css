@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:wght@100;200;300&family=Poppins:wght@100;300&display=swap");
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(20px);
+    padding: 0 60px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 0 20px 0 rgba(0,0,0,0.1);
+    z-index: 999;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    column-gap: 25px;
+}
+
+li {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #bcbcbc;
+
+}
+
+a:hover{
+    color: white;
+    transition-delay: 0.2s;
+} 
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 0 40px 0 20px;
+    }
+    ul {
+        column-gap: 10px;
+    }
+    li {
+        font-size: 0.95rem;
+    }
+    .landingpage {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 50px;
+    }
+    #video {
+        width: 400px;
+        height: 250px
+    }
+}
+/*.navbar {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .navlink{
+    justify-content: space-between;
+    display: flex;
+    margin-inline-end: 10%;
+    margin-inline-start: 40%;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap:2rem;
+    align-items:center ;
+}
+.navbar ul a{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.navbar li a:hover{
+    color:  white ;
+}  
+
+*/
+
+.navbar li .active{
+    background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1.5px solid #9b51e0;
+}
+
+
+  .navlogo  {
+    background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+.navbar .createbtn {
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 12px;
+}
+

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:wght@100;200;300&family=Poppins:wght@100;300&display=swap");
+
+*{
+  font-family: Poppins;
+
+}
+
+body {
+  margin: 0;
+  background-color: #1f1d2b;
+  max-width: 100%;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.landingpage {
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #1f1d2b;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 123px;
+  left: 60%;
+  top: 138px;
+  filter: blur(90px);
+  background-color: #fb37ff;
+}
+body::after {
+  content: "";
+  position: absolute;
+  width: 123px;
+  height: 123px;
+  left: 80%;
+  top: 550px;
+  background-color: #18b2de;
+  filter: blur(80px);
+}
+
+
+
+  
